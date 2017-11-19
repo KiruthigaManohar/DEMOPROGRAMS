@@ -10,7 +10,7 @@ printf("Enter the end point");
 scanf("%d",&b);
 for(i=a;i<=b;i++)
 {
-if(i%2==0)
+if(i%3==0)
 {
 printf("%d",i)
 }
