@@ -3,6 +3,7 @@
 void main()
 {
 int n,r,sum,original;
+clrscr();
 printf("Enter the number");
 scanf("%d",&n);
 original=n;
@@ -15,6 +16,7 @@ n=n/10;
 if(original==sum)
 {
 printf("Armstrong number");
+}
 else
 {
 printf("Not an armstrong");
