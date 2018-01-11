@@ -13,6 +13,7 @@ for(i=0;i<n;i++)
 {
 sum=sum+a[i];
 }
-median=sum % n;
+printf("The sum of array elements is %d\n",sum);
+median=sum / n;
 printf("%d",median);
 }
