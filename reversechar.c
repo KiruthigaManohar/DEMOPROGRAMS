@@ -3,9 +3,14 @@
 #include<string.h>
 void main()
 {
-char str;
+char str[10],i;
 printf("Enter the character");
-gets(str);
-strrev(str);
-printf("%s",str);
+for(i=0;i<10;i++)
+{
+    scanf("%c",&str[i]);
+}
+for(i=10;i>=1;i--)
+{
+printf("%c",str[i]);
+}
 }
