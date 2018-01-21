@@ -2,15 +2,16 @@
 #include<string.h>
 void main()
 {
-char str[20],i,count=0;
-printf("Enter your sentence");
-for(i=0;i<20;i++)
+char str[20];
+int count=0,i;
+printf("Enter your sentence\t");
+scanf("%[^\n]s",str);
+for(i=0;str[i]!='\0';i++)
 {
-scanf("%c",&str[i]);
-}
-for(i=0;i<20;i++)
-{
+  if(str[i]>='a'&&str[i]<='z')
+  {
 count++;
+}
 }
 printf("%d",count);
 }
