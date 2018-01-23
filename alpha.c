@@ -2,8 +2,9 @@
 #include<conio.h>
 void main()
 {
-int a;
-if(a<='a'&&a<='z'||a<='A'&&a<='Z')
+char a;
+scanf("%c",&a);
+if(a<='a'&&a<='z'||a<='A'&&a>='Z')
 {
 printf("It is an alphabet");
 }
