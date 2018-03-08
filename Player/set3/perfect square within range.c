@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	int i,j,a,b;
+	int i,j,a,b,count=0;
 	scanf("%d%d",&a,&b);
 	for(i=a;i<b;i++)
 	{
@@ -9,8 +9,9 @@ void main()
 		{
 		if(j*j==i)
 		{
-			printf("%d\t",i);
-}
-}
+			count++;
+        }
+        }
 	}
+		printf("%d\t",count);
 }
