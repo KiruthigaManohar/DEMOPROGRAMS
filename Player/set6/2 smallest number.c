@@ -24,5 +24,5 @@ void main()
 	{
 	printf("%d\t",a[i]);
     }
-    printf("\n%d",a[n-4a]);
+    printf("\n%d",a[n-4]);
 }
