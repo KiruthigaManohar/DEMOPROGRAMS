@@ -5,6 +5,11 @@ int main(int argc,char*argv[])
 {
     int n, f=0,s=1,t=0,i=3;
     n=atoi(argv[1]);
+    if(n==1)
+    printf("%d",f);
+    else if(n==2)
+    printf("%d %d ",f,s);
+    else
     printf("%d %d ",f,s);
     fib(n,f,s,t,i);
 }
